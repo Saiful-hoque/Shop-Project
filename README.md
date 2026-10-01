@@ -1,10 +1,10 @@
-# 🛒 Simple Product API (Django REST Framework)
+#  Simple Product API (Django REST Framework)
 
 A clean RESTful API built for a small online shop using **Python**, **Django**, and **Django REST Framework (DRF)**. Visitors can browse available products without authentication, while only authenticated users with valid tokens can create new products.
 
 ---
 
-## 📋 Features & Implementation Summary
+##  Features & Implementation Summary
 
 - **Project & App Structure**: `shop_project` with `products` application.
 - **Product Model**: Contains `id` (auto-generated), `name` (max 100 characters), `description`, `price` (decimal, up to 2 decimal places), and `stock` (integer).
@@ -24,7 +24,7 @@ A clean RESTful API built for a small online shop using **Python**, **Django**, 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python 3.x
 - Django 4.x / 5.x
@@ -33,7 +33,7 @@ A clean RESTful API built for a small online shop using **Python**, **Django**, 
 
 ---
 
-## ⚙️ How to Setup & Run Locally
+##  How to Setup & Run Locally
 
 ### 1. Clone repository & create virtual environment
 ```bash
@@ -85,7 +85,7 @@ API root URL: `http://127.0.0.1:8000/api/products/`
 
 ---
 
-## 📡 API Endpoints & Postman Testing Guide
+##  API Endpoints & Postman Testing Guide
 
 ### 1. View Products (Public)
 - **Method**: `GET`
@@ -126,7 +126,7 @@ API root URL: `http://127.0.0.1:8000/api/products/`
 
 ---
 
-## 📸 Screenshots for Submission Checklist
+##  Screenshots for Submission Checklist
 Save your Postman test results inside `screenshots/`:
 1. `1_get_products_public.png` - Successful GET response.
 2. `2_post_product_success.png` - Successful 201 Created with Token.
@@ -136,13 +136,4 @@ Save your Postman test results inside `screenshots/`:
 
 ---
 
-## 📦 GitHub Submission Commands
 
-```bash
-git init
-git add .
-git commit -m "Initial commit: Complete Simple Product API with DRF Token Auth and Pagination"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-git push -u origin main
-```
